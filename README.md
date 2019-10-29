@@ -1,0 +1,2 @@
+# Hiragana-Web-Project
+This project was undertaken as part of my web development module in semster two of Third year. It is a dynamic table displaying information about the Japanese Hiragana lettering system. Features include playing a Gif of how each component is drawn on hover and a dedicated "read aloud" button. There is also a link included to a basic quiz to test knowledge of elements from the table that provides a score at the end.
