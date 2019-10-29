@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang= "en-US">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="Homepage.js"></script>
+  <meta charset="UTF-8">
+ <title>Homepage.html</title>
+ <link rel = "stylesheet"
+  type ="text/css"
+  href="Home_Style.css" />
+</head>
+<h1>Table of Hiragana and Romaji</h1>
+<h2>Here is an introduction to the Hiragana (Kana-Romaji) system:</h2>
+<h3>Please click on the Romaji to hear the relevent phonetic pronounciation</h3>
+<table class="syllabary">
+  <tr>
+    <td>
+      <div>
+        <span class="hiragana"><img class="images" src="Assignment4_pics/A.png"></img></span>
+        <audio id="A" src="Assignment4_pics/A.mp3" ></audio>
+        <span class="romaji" onclick="A.play()">a &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana"><img class="images" src="Assignment4_pics/KA.png"></img></span>
+        <audio id="KA" src="Assignment4_pics/ka.mp3" ></audio>
+        <span class="romaji" onclick="KA.play()">ka &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="さ"><img class="images" src="Assignment4_pics/SA.png"></img></span>
+        <audio id="SA" src="Assignment4_pics/sa.mp3" ></audio>
+        <span class="romaji" onclick="SA.play()">sa &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="た"><img class="images" src="Assignment4_pics/TA.png"></img></span>
+        <audio id="TA" src="Assignment4_pics/ta.mp3" ></audio>
+        <span class="romaji" onclick="TA.play()">ta &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="な"><img class="images" src="Assignment4_pics/NA.png"></img></span>
+        <audio id="NA" src="Assignment4_pics/na.mp3" ></audio>
+        <span class="romaji" onclick="NA.play()">Na &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="は"><img class="images" src="Assignment4_pics/HA.png"></img></span>
+        <audio id="HA" src="Assignment4_pics/ha.mp3" ></audio>
+        <span class="romaji" onclick="HA.play()">ha &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ま"><img class="images" src="Assignment4_pics/MA.png"></img></span>
+        <audio id="MA" src="Assignment4_pics/ma.mp3" ></audio>
+        <span class="romaji" onclick="MA.play()">ma &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="や"><img class="images" src="Assignment4_pics/YA.png"></img></span>
+        <audio id="YA" src="Assignment4_pics/ya.mp3" ></audio>
+        <span class="romaji" onclick="YA.play()">ya &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ら"><img class="images" src="Assignment4_pics/RA.png"></img></span>
+        <audio id="RA" src="Assignment4_pics/ra.mp3" ></audio>
+        <span class="romaji" onclick="RA.play()">ra &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="わ"><img class="images" src="Assignment4_pics/WA.png"></img></span>
+        <audio id="WA" src="Assignment4_pics/wa.mp3" ></audio>
+        <span class="romaji" onclick="WA.play()">wa &#128266;</span>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="い"><img class="images" src="Assignment4_pics/I.png"></img></span>
+        <audio id="I" src="Assignment4_pics/i.mp3" ></audio>
+        <span class="romaji" onclick="I.play()">i &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="き"><img class="images" src="Assignment4_pics/KI.png"></img></span>
+        <audio id="KI" src="Assignment4_pics/ki.mp3" ></audio>
+        <span class="romaji" onclick="KI.play()">ki &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="し"><img class="images" src="Assignment4_pics/SI.png"></img></span>
+        <audio id="SI" src="Assignment4_pics/si.mp3" ></audio>
+        <span class="romaji" onclick="SI.play()">si &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ち"><img class="images" src="Assignment4_pics/TI.png"></img></span>
+        <audio id="TI" src="Assignment4_pics/ti.mp3" ></audio>
+        <span class="romaji" onclick="TI.play()">ti &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="に"><img class="images" src="Assignment4_pics/NI.png"></img></span>
+        <audio id="NI" src="Assignment4_pics/ni.mp3" ></audio>
+        <span class="romaji" onclick="NI.play()">ni &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ひ"><img class="images" src="Assignment4_pics/HI.png"></img></span>
+        <audio id="HI" src="Assignment4_pics/hi.mp3" ></audio>
+        <span class="romaji" onclick="HI.play()">hi &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="み"><img class="images" src="Assignment4_pics/MI.png"></img></span>
+        <audio id="MI" src="Assignment4_pics/mi.mp3" ></audio>
+        <span class="romaji" onclick="MI.play()">mi &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div></div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="り"><img class="images" src="Assignment4_pics/RI.png"></img></span>
+        <audio id="RI" src="Assignment4_pics/ri.mp3" ></audio>
+        <span class="romaji" onclick="RI.play()">ri &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="う"><img class="images" src="Assignment4_pics/U.png"></img></span>
+        <audio id="U" src="Assignment4_pics/u.mp3" ></audio>
+        <span class="romaji" onclick="U.play()">u &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="く"><img class="images" src="Assignment4_pics/KU.png"></img></span>
+        <audio id="KU" src="Assignment4_pics/ku.mp3" ></audio>
+        <span class="romaji" onclick="KU.play()">ku &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="す"><img class="images" src="Assignment4_pics/SU.png"></img></span>
+        <audio id="SU" src="Assignment4_pics/su.mp3" ></audio>
+        <span class="romaji" onclick="SU.play()">su &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="つ"><img class="images" src="Assignment4_pics/TU.png"></img></span>
+        <audio id="TU" src="Assignment4_pics/tu.mp3" ></audio>
+        <span class="romaji" onclick="TU.play()">tu &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ぬ"><img class="images" src="Assignment4_pics/NU.png"></img></span>
+        <audio id="NU" src="Assignment4_pics/nu.mp3" ></audio>
+        <span class="romaji" onclick="NU.play()">nu &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ふ"><img class="images" src="Assignment4_pics/HU.png"></img></span>
+        <audio id="HU" src="Assignment4_pics/hu.mp3" ></audio>
+        <span class="romaji" onclick="HU.play()">hu &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="む"><img class="images" src="Assignment4_pics/MU.png"></img></span>
+        <audio id="MU" src="Assignment4_pics/mu.mp3" ></audio>
+        <span class="romaji" onclick="MU.play()">mu &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ゆ"><img class="images" src="Assignment4_pics/YU.png"></img></span>
+        <audio id="YU" src="Assignment4_pics/yu.mp3" ></audio>
+        <span class="romaji" onclick="YU.play()">yu &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="る"><img class="images" src="Assignment4_pics/RU.png"></img></span>
+        <audio id="TU" src="Assignment4_pics/ru.mp3" ></audio>
+        <span class="romaji" onclick="RU.play()">ru &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ん"><img class="images" src="Assignment4_pics/N.png"></img></span>
+        <audio id="N" src="Assignment4_pics/n.mp3" ></audio>
+        <span class="romaji" onclick="N.play()">n &#128266;</span>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="え"><img class="images" src="Assignment4_pics/E.png"></img></span>
+        <audio id="E" src="Assignment4_pics/e.mp3" ></audio>
+        <span class="romaji" onclick="E.play()">e &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="け"><img class="images" src="Assignment4_pics/KE.png"></img></span>
+        <audio id="KE" src="Assignment4_pics/ke.mp3" ></audio>
+        <span class="romaji" onclick="KE.play()">ke &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="せ"><img class="images" src="Assignment4_pics/SE.png"></img></span>
+        <audio id="SE" src="Assignment4_pics/se.mp3" ></audio>
+        <span class="romaji" onclick="SE.play()">se &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="て"><img class="images" src="Assignment4_pics/TE.png"></img></span>
+        <audio id="TE" src="Assignment4_pics/te.mp3" ></audio>
+        <span class="romaji" onclick="TE.play()">te &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ね"><img class="images" src="Assignment4_pics/NE.png"></img></span>
+        <audio id="NE" src="Assignment4_pics/ne.mp3" ></audio>
+        <span class="romaji" onclick="NE.play()">ne &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="へ"><img class="images" src="Assignment4_pics/HE.png"></img></span>
+        <audio id="HE" src="Assignment4_pics/he.mp3" ></audio>
+        <span class="romaji" onclick="HE.play()">he &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="め"><img class="images" src="Assignment4_pics/ME.png"></img></span>
+        <audio id="ME" src="Assignment4_pics/me.mp3" ></audio>
+        <span class="romaji" onclick="ME.play()">me &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div></div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="れ"><img class="images" src="Assignment4_pics/RE.png"></img></span>
+        <audio id="RE" src="Assignment4_pics/re.mp3" ></audio>
+        <span class="romaji" onclick="RE.play()">re &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="お"><img class="images" src="Assignment4_pics/O.png"></img></span>
+        <audio id="O" src="Assignment4_pics/o.mp3" ></audio>
+        <span class="romaji" onclick="O.play()">o &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="こ"><img class="images" src="Assignment4_pics/KO.png"></img></span>
+        <audio id="KO" src="Assignment4_pics/ko.mp3" ></audio>
+        <span class="romaji" onclick="KO.play()">ko &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="そ"><img class="images" src="Assignment4_pics/SO.png"></img></span>
+        <audio id="SO" src="Assignment4_pics/so.mp3" ></audio>
+        <span class="romaji" onclick="SO.play()">so &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="と"><img class="images" src="Assignment4_pics/TO.png"></img></span>
+        <audio id="TO" src="Assignment4_pics/to.mp3" ></audio>
+        <span class="romaji" onclick="TO.play()">to &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="の"><img class="images" src="Assignment4_pics/NO.png"></img></span>
+        <audio id="NO" src="Assignment4_pics/no.mp3" ></audio>
+        <span class="romaji" onclick="NO.play()">no &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ほ"><img class="images" src="Assignment4_pics/HO.png"></img></span>
+        <audio id="HO" src="Assignment4_pics/ho.mp3" ></audio>
+        <span class="romaji" onclick="HO.play()">ho &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="も"><img class="images" src="Assignment4_pics/MO.png"></img></span>
+        <audio id="MO" src="Assignment4_pics/mo.mp3" ></audio>
+        <span class="romaji" onclick="MO.play()">mo &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="よ"><img class="images" src="Assignment4_pics/YO.png"></img></span>
+        <audio id="YO" src="Assignment4_pics/yo.mp3" ></audio>
+        <span class="romaji" onclick="YO.play()">yo &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="ろ"><img class="images" src="Assignment4_pics/RO.png"></img></span>
+        <audio id="RO" src="Assignment4_pics/ro.mp3" ></audio>
+        <span class="romaji" onclick="RO.play()">ro &#128266;</span>
+      </div>
+    </td>
+    <td>
+      <div>
+        <span class="hiragana" data-kana="を"><img class="images" src="Assignment4_pics/WO.png"></img></span>
+        <audio id="WO" src="Assignment4_pics/wo.mp3" ></audio>
+        <span class="romaji" onclick="WO.play()">wo &#128266;</span>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+<div class="wrapper">
+    <h4>Click the following button to test your Knowledge of the table: <a href="A4_Quiz.html"><button button id="nextPage"class="button" align="right">Test your knowledge!</button></a></h4>
+</div>
+
+<div align="left" class="resources">
+  Sources:
+  <a href="https://commons.wikimedia.org/wiki/Hiragana">GIF's and images</a>
+  <a href="http://www.guidetojapanese.org/learn/complete/hiragana">Audio</a>
+</div>
+</html>
